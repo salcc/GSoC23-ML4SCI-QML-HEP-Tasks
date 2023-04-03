@@ -11,10 +11,10 @@ In particular, I completed the following tasks:
 <!-- - [Task IV: Quantum Generative Adversarial Network (QGAN)](Task_IV.ipynb) -->
 <!-- - [Task V: Quantum Graph Neural Network (QGNN)](Task_V.ipynb) -->
 - [Task VI: Quantum Representation Learning](Task_VI.ipynb)
-<!-- - [Task VII: Equivariant Quantum Neural Networks](Task_VII.ipynb) -->
+- [Task VII: Equivariant Quantum Neural Networks](Task_VII.ipynb)
 - [Task VIII: Vision Transformer / Quantum Vision Transformer](Task_VIII.ipynb)
 
-Due to my other commitments during this time of the year and to the constrained time frame for completing all the tasks, I was unable to finish tasks IV, V, and VII. Nevertheless, I will try to accomplish them in the future.
+Due to my other commitments during this time of the year and to the constrained time frame for completing all the tasks, I was unable to finish tasks IV, and V. Nevertheless, I will try to accomplish them in the future.
 
 ## Installation instructions
 
