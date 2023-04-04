@@ -37,14 +37,14 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
 mkdir -p $CONDA_PREFIX/etc/conda/activate.d
 echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/' > $CONDA_PREFIX/etc/conda/activate.d/env_vars.sh
 pip install --upgrade pip
-pip install jupyterlab ipywidgets tensorflow==2.7.0 tensorflow-quantum pennylane ray hpbandster scikit-learn
+pip install jupyterlab ipywidgets tensorflow==2.11.0 tensorflow-quantum pennylane ray hpbandster scikit-learn
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
 Considerations:
 - The version of Python is set to 3.9 because that is the latest version of Python supported by TensorFlow Quantum.
-- The version of TensorFlow is fixed to 2.7.0 because that is the version supported by the last version of TensorFlow Quantum.
-- CUDA Toolkit 11.2.2 and cuDNN 8.1.0 are installed because those are the latest versions supported by Tensorflow 2.7.0.
+- The version of TensorFlow is fixed to 2.11.0 because that is the version supported by the last version of TensorFlow Quantum.
+- CUDA Toolkit 11.2.2 and cuDNN 8.1.0 are installed because those are the latest versions supported by Tensorflow 2.11.0. However, note that PyTorch will use CUDA 11.8.
 - Cirq, NumPy, and other packages used in the notebooks are already installed as dependencies automatically.
 
 To execute the notebooks open Jupyter Lab:
