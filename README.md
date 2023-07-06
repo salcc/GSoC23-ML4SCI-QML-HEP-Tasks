@@ -14,7 +14,7 @@ In particular, I completed the following tasks:
 - [Task VII: Equivariant Quantum Neural Networks](Task_VII.ipynb)
 - [Task VIII: Vision Transformer / Quantum Vision Transformer](Task_VIII.ipynb)
 
-Due to my other commitments during this time of the year and to the constrained time frame for completing all the tasks, I was unable to finish tasks IV, and V. Nevertheless, I will try to accomplish them in the future.
+Due to my other commitments during this time of the year and to the constrained time frame for completing all the tasks, I was unable to finish tasks IV, and V.
 
 ## Installation instructions
 
